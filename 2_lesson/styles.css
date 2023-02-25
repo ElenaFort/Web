@@ -3,35 +3,33 @@ img {
     float: left;
     margin: 0 1em 1em 0;
 }
-
-ul  {
+ul {
     position: relative;
     left: 1em;
 }
 table {
     border: 1px solid grey;
     color: blue;
-   }
+}
 th {
     border: 1px solid grey;
 }
 td {
     border: 1px solid grey;
- }
+}
 div {
     clear: left;
 }
 body {
     background-color: rgb(221, 238, 198);
     font-family: "Teddy Bear";
+    font-size: 150%;
 }
 h1 {
     color: rgb(24, 153, 7);
-   
 }
 h2 {
     color: rgb(231, 15, 202);
-   
 }
 a {
     color: rgb(238, 111, 8);
@@ -40,18 +38,25 @@ h3 {
     color: rgb(19, 196, 219);
 }
 @font-face {
-	font-family: "Teddy Bear";
-	src: url("fonts/teddy-bear/teddy-bear.eot"); /* IE9 Compat Modes */
-	src: url("fonts/teddy-bear/teddy-bear.eot?#iefix") format("embedded-opentype"), /* IE6-IE8 */
-		url("fonts/teddy-bear/teddy-bear.otf") format("opentype"), /* Open Type Font */
-		url("fonts/teddy-bear/teddy-bear.svg") format("svg"), /* Legacy iOS */
-		url("fonts/teddy-bear/teddy-bear.ttf") format("truetype"), /* Safari, Android, iOS */
-		url("fonts/teddy-bear/teddy-bear.woff") format("woff"), /* Modern Browsers */
-		url("fonts/teddy-bear/teddy-bear.woff2") format("woff2"); /* Modern Browsers */
-	font-weight: normal;
-	font-style: normal;
+    font-family: "Teddy Bear";
+    src: url("fonts/teddy-bear/teddy-bear.eot");
+    /* IE9 Compat Modes */
+    src: url("fonts/teddy-bear/teddy-bear.eot?#iefix") format("embedded-opentype"),
+        /* IE6-IE8 */
+        url("fonts/teddy-bear/teddy-bear.otf") format("opentype"),
+        /* Open Type Font */
+        url("fonts/teddy-bear/teddy-bear.svg") format("svg"),
+        /* Legacy iOS */
+        url("fonts/teddy-bear/teddy-bear.ttf") format("truetype"),
+        /* Safari, Android, iOS */
+        url("fonts/teddy-bear/teddy-bear.woff") format("woff"),
+        /* Modern Browsers */
+        url("fonts/teddy-bear/teddy-bear.woff2") format("woff2");
+    /* Modern Browsers */
+    font-weight: normal;
+    font-style: normal;
 }
 .wrapper {
     width: 800px;
-    margin:auto;
+    margin: auto;
 }
